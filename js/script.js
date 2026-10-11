@@ -2,8 +2,10 @@
 
 $(document).ready(function ($) {
 
-     jQuery('#map').CustomMap();
-
+    //// jQuery('#map').CustomMap();
+	if ($('#map').length && typeof google !== 'undefined') {
+    $('#map').CustomMap();
+}
 
      ////------- Testimonials Carousel
     
