@@ -2,13 +2,7 @@
 
 $(document).ready(function ($) {
 
-<<<<<<< HEAD
-     ////jQuery('#map').CustomMap();
-    if ($('#map').length && typeof google !== 'undefined') {
-=======
-    //// jQuery('#map').CustomMap();
 	if ($('#map').length && typeof google !== 'undefined') {
->>>>>>> 875ec463c3520f60d460b1bedfbf983df0b69710
     $('#map').CustomMap();
 }
 
